@@ -1,0 +1,233 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+    <body>
+    <div class="relative h-full flex p-5 justify-center bg-gray-600 overflow-hidden">
+
+        <!-- grid background -->
+        <div class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-12 scale-125">
+            <!-- row 1 -->
+            <div class="col-span-2 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-5 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-4 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 2 -->
+            <div class="col-span-5 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-3 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 3 -->
+            <div class="col-span-4 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 4 -->
+            <div class="col-span-2 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-4 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-6 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 5 -->
+            <div class="col-span-5 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-5 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 6 -->
+            <div class="col-span-4 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 6 -->
+            <div class="col-span-4 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 1 -->
+            <div class="col-span-2 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-5 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-4 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 2 -->
+            <div class="col-span-5 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-3 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 3 -->
+            <div class="col-span-4 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 4 -->
+            <div class="col-span-2 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-4 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-6 bg-gray-300 rounded custom-pulse"></div>
+
+            <!-- row 5 -->
+            <div class="col-span-5 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-5 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-2 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 6 -->
+            <div class="col-span-4 bg-gray-500 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-300 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+
+            <!-- row 6 -->
+            <div class="col-span-4 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-7 bg-gray-400 rounded custom-pulse"></div>
+            <div class="col-span-1 bg-gray-400 rounded custom-pulse"></div>
+        </div>
+        <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-gray-100 rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 pb-5 md:px-5">
+                <h1 class="text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">Formations</h1>
+                <div class="grid grid-cols-1 gap-4 my-5 md:grid-cols-2">
+                    <div>
+                        <div class="block transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                            <div class="flex items-center px-4 py-4 sm:px-6">
+                                <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                                    <div>
+                                        <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                                            BPJEPS - APT
+                                            <span class="ml-1 font-normal text-gray-600">
+                                              Alternance
+                                            </span>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                                                <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                                                <span>
+                                                    OCT. 2018 – Sept 2020
+                                                  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block mt-4 transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                            <div class="flex items-center px-4 py-4 sm:px-6">
+                                <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                                    <div>
+                                        <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                                            adjoin club
+                                            <span class="ml-1 font-normal text-gray-600">
+                                              salarié
+                                            </span>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                                                <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                                                <span>
+                                Janv. 2019 – Fév. 2019
+                              </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="block transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                            <div class="flex items-center px-4 py-4 sm:px-6">
+                                <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                                    <div>
+                                        <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                                            CAP Mécanique moto
+                                            <span class="ml-1 font-normal text-gray-600">
+                                          Alternance
+                                        </span>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                                                <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                                                <span>
+                                                Nov. 2016 – Déc. 2018
+                                              </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block mt-4 transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                            <div class="flex items-center px-4 py-4 sm:px-6">
+                                <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                                    <div>
+                                        <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                                            Newteon
+                                            <span class="ml-1 font-normal text-gray-600">
+                                              Salarié
+                                            </span>
+                                        </div>
+                                        <div class="flex mt-2">
+                                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                                                <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                                                <span>
+                                                Nov. 2016 – Déc. 2018
+                                              </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-10 pb-5 md:px-5">
+                    <h1 class="text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">CV</h1>
+                    <div class="grid grid-cols-1 gap-4 my-5 md:grid-cols-2">
+                    </div>
+                </div>
+                <div class="md:pt-4 sm:col-span-2">
+                    <dt class="text-sm font-medium leading-5 text-gray-500">
+                        Documents
+                    </dt>
+                    <dd class="mt-1 text-sm leading-5 text-gray-900">
+                        <ul class="border border-gray-200 rounded-md">
+                            <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm leading-5">
+                                <div class="flex items-center flex-1 w-0">
+                                    <svg class="flex-shrink-0 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="flex-1 w-0 ml-2 truncate">
+                          CV-Thomas-Drumont-2020.pdf
+                        </span>
+                                </div>
+                                <div class="flex-shrink-0 ml-4">
+                                    <a href="img/CV_2019-2020.pdf" target="_nofollow" class="font-medium text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500">
+                                        Télécharger
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </dd>
+                </div>
+                <footer class="mt-8">
+                    <div class="md:flex md:items-center md:justify-center">
+                        <div class="md:flex-shrink-0">
+                            <img class="w-10 h-10 mx-auto rounded-full" src="img/moiman1.png" alt="Photo de profil">
+                        </div>
+                        <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                            <div class="text-base font-medium leading-6 text-gray-900">maxence Joly
+                            </div>
+                            <div class="text-base font-medium leading-6 text-gray-500 font-raleway">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
